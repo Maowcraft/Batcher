@@ -1,0 +1,21 @@
+plugins {
+    id 'java'
+}
+
+group = 'maow'
+archivesBaseName = 'batcher'
+version = '1.0.0'
+
+jar {
+    manifest {
+        attributes 'Main-Class': 'maow.batcher.Batcher'
+    }
+}
+
+repositories {
+    mavenCentral()
+}
+
+dependencies {
+
+}
